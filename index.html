@@ -8,37 +8,59 @@
     <title>NETNET</title>
   </head>
   <body>
-    <header class="header">
-      <picture class="logo">
-        <img
-          src="./assets/images/logo-netflix.png"
-          width="56"
-          height="24"
-          alt="Logo de Netnet"
-        />
-      </picture>
-      <div class="header-actions">
+    <div class="hero">
+      <header class="header">
+        <picture class="logo">
+          <img
+            src="./assets/images/logo-netflix.png"
+            width="56"
+            height="24"
+            alt="Logo de Netnet"
+          />
+        </picture>
+      </header>
+      <div class="hero-gradientTop"></div>
+      <div class="hero-actions">
         <ul>
           <li><a href="#">Series</a></li>
           <li><a href="#">Películas</a></li>
           <li><a href="#">Mi Lista</a></li>
         </ul>
       </div>
-    </header>
-
-    <button
-      class="button"
-      aria-label="Reproducir pelicula o serie"
-      title="Reproducir pelicula o serie"
-    >
-      <i class="icon-play" aria-hidden="true"></i>
-      Reproducir
-    </button>
-
-    <button class="button-single">
-      <i class="icon-info" aria-hidden="true"></i>
-      Info
-    </button>
+      <img
+        class="hero-title"
+        src="./assets/images/matrix-title.png"
+        width="312"
+        height="64"
+        alt="Pelicula Matrix Reloaded"
+      />
+      <section class="hero-matrix">
+        <ul class="matrix-data">
+          <li>Surrealista</li>
+          <li>Distópico</li>
+          <li>Hábil</li>
+          <li>Siniestro</li>
+        </ul>
+      </section>
+      <section class="hero-buttons">
+        <button class="button-single">
+          <i class="icon-plus" aria-hidden="true"></i>
+          Mi lista
+        </button>
+        <button
+          class="button"
+          aria-label="Reproducir pelicula o serie"
+          title="Reproducir pelicula o serie"
+        >
+          <i class="icon-play" aria-hidden="true"></i>
+          Reproducir
+        </button>
+        <button class="button-single">
+          <i class="icon-info" aria-hidden="true"></i>
+          Info
+        </button>
+      </section>
+    </div>
 
     <section class="navigation" role="navigation">
       <button

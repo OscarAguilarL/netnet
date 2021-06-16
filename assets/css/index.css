@@ -2,6 +2,7 @@
 @import './font.css';
 @import './button.css';
 @import './header.css';
+@import './hero.css';
 @import './navigation.css';
 
 :root {
@@ -21,4 +22,5 @@
 
 body {
   background: var(--black);
+  margin: 0;
 }

@@ -1,0 +1,64 @@
+.hero {
+  inline-size: 100%;
+  block-size: 34.3125rem;
+  background: linear-gradient(180deg, #191919 0%, rgba(0, 0, 0, 0) 100%),
+    url('../images/matrix.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.hero-actions ul {
+  padding: 0;
+  padding-inline-end: 3.875rem;
+  padding-inline-start: 3.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-actions ul li {
+  list-style: none;
+}
+
+.hero-actions ul a {
+  font: var(--body1Regular);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.hero-title {
+  inline-size: 19.5rem;
+  block-size: 4rem;
+  margin: auto;
+  margin-block-start: 14rem;
+  margin-block-end: 0.75rem;
+  align-self: center;
+}
+
+.hero-matrix {
+  font: var(--body2Regular);
+  color: var(--white);
+}
+
+.hero-matrix ul {
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1rem;
+}
+
+.hero-matrix ul li:first-of-type {
+  list-style: none;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: space-around;
+}
