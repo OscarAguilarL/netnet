@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './font.css';
+@import './button.css';
+@import './navigation.css';
 
 :root {
   --baseFont: 'Avenir', sans-serif;
@@ -7,11 +9,15 @@
   --grey: #686868;
   --black: #000000;
   --red: #d22f26;
-  --subtitle1: 700 1.09375rem / normal var(--baseFont);
-  --headline1: 700 1.708984375rem / normal var(--baseFont);
-  --button: 600 0.699999988079071rem / normal var(--baseFont);
-  --body1SemiBold: 600 0.875rem/1.5rem var(--baseFont);
-  --body1Regular: 400 0.875rem/1.5rem var(--baseFont);
-  --body2SemiBold: 600 0.699999988079071rem / normal var(--baseFont);
-  --body2Regular: 400 0.699999988079071rem / normal var(--baseFont);
+  --subtitle1: 700 1rem / normal var(--baseFont);
+  --headline1: 700 2rem / normal var(--baseFont);
+  --button: 600 1rem / normal var(--baseFont);
+  --body1SemiBold: 600 1rem/1.5rem var(--baseFont);
+  --body1Regular: 400 1rem/1.5rem var(--baseFont);
+  --body2SemiBold: 600 1rem / normal var(--baseFont);
+  --body2Regular: 400 1rem / normal var(--baseFont);
+}
+
+body {
+  background: var(--black);
 }

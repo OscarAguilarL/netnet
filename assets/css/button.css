@@ -1,0 +1,23 @@
+.button {
+  font: var(--button);
+  color: var(--black);
+  padding: 0.53125rem;
+  background: var(--white);
+  border: none;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.button-single {
+  font: var(--button);
+  background: none;
+  color: var(--white);
+  border: none;
+  padding-block-end: 0.1875rem;
+  padding-block-start: 0.1875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4375rem;
+}
