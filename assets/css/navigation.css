@@ -1,4 +1,6 @@
 .navigation {
+  position: sticky;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   min-inline-size: 5.625rem;
