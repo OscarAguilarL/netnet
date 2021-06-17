@@ -3,6 +3,7 @@
 @import './button.css';
 @import './header.css';
 @import './hero.css';
+@import './movie.css';
 @import './movies-slider.css';
 @import './navigation.css';
 
@@ -18,7 +19,7 @@
   --body1SemiBold: 600 1rem/1.5rem var(--baseFont);
   --body1Regular: 400 1rem/1.5rem var(--baseFont);
   --body2SemiBold: 600 1rem / normal var(--baseFont);
-  --body2Regular: 400 1rem / normal var(--baseFont);
+  --body2Regular: 400 0.9rem / normal var(--baseFont);
 }
 
 body {

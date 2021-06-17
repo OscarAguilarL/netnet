@@ -11,6 +11,11 @@
   vertical-align: middle;
 }
 
+.button.is-secondary {
+  background: #2b2b2b;
+  color: var(--white);
+}
+
 .button-single {
   font: var(--button);
   background: none;
