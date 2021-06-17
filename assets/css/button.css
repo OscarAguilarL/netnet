@@ -1,7 +1,8 @@
 .button {
   font: var(--button);
   color: var(--black);
-  padding: 0.53125rem;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
   background: var(--white);
   border: none;
   border-radius: 2px;

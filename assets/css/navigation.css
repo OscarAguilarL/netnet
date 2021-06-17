@@ -1,4 +1,5 @@
 .navigation {
+  background-color: var(--black);
   position: sticky;
   bottom: 0;
   display: flex;

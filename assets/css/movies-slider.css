@@ -1,0 +1,14 @@
+.movies {
+  margin: 1rem;
+  overflow: auto;
+}
+
+.movies-description {
+  font: var(--subtitle1);
+  color: var(--white);
+}
+
+.movies-slider {
+  display: flex;
+  gap: 0.5rem;
+}

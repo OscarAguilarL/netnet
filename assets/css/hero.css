@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .hero-actions ul {
@@ -59,6 +58,9 @@
 }
 
 .hero-buttons {
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-start: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
