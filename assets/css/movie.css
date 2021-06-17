@@ -2,6 +2,11 @@
   overflow: hidden;
 }
 
+.movie-img {
+  inline-size: 100%;
+  block-size: auto;
+}
+
 .movie-container {
   padding: 1rem;
 }
