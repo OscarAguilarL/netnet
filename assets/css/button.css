@@ -3,6 +3,8 @@
   color: var(--black);
   padding-inline-end: 1rem;
   padding-inline-start: 1rem;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
   background: var(--white);
   border: none;
   border-radius: 2px;
